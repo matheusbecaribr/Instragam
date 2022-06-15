@@ -48,7 +48,7 @@ header a:hover{
 }
 
 .section1 img{
-    width: 350px;
+    width: 500px;
 }
 
 .form-register{
@@ -57,7 +57,7 @@ header a:hover{
     text-align: center;
     flex-direction: column;
     background-color: white;
-    width: 250px;
+    width: 300px;
     height: 60vh;
     border: 1px solid rgb(233, 233, 233);
 }
@@ -80,7 +80,7 @@ header a:hover{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 230px;
+    width: 278px;
     background-color: rgb(252, 249, 249);
     border: 1px solid rgb(224, 224, 224);
     border-radius: 3px;
@@ -102,4 +102,11 @@ header a:hover{
 
 .form-register a:hover{
     background-color: blue;
+}
+
+
+@media screen and (max-width: 990px){
+    .section1 img{
+        display: none;
+    }
 }
